@@ -4,9 +4,10 @@ cmds_status() {
 }
 
 cmds_publish() {
-	cd $HOME/github/environment && \
-	git pull && \
-	git commit -am 'cmds_publish'
+	cd $HOME/github/environment   && \
+	git pull                      && \
+	git commit -am 'cmds_publish' && \
+	git status
 }
 
 vip() {
