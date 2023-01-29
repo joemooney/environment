@@ -6,8 +6,11 @@ cmds_status() {
 cmds_publish() {
 	cd $HOME/github/environment   && \
 	git pull                      && \
+	echo "----------------------" && \
 	git commit -am 'cmds_publish' && \
+	echo "----------------------" && \
 	git push                      && \
+	echo "----------------------" && \
 	git status
 }
 
