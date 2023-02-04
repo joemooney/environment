@@ -51,12 +51,10 @@ V = ["extend_to_line_end"]
 v = ["ensure_selections_forward", "select_mode"]
 "#" = ["toggle_comments"]
 
-
 [editor.cursor-shape]
 normal = "block"
 insert = "bar"
 select = "underline"
-
 
 [editor.statusline]
 right = [ "position", "position-percentage", "total-line-numbers"]
@@ -359,6 +357,4 @@ hidden = false
 # sort selected lines   : !sort
 #__________________________________________________________________________________________________________________________________________
 # 
-
-
 
